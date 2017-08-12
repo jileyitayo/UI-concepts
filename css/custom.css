@@ -129,3 +129,8 @@
 #fh5co-main .headp {
 	font-style: italic;
 }
+
+#fh5co-main .fh5co-layout {
+	min-height: 600px;
+	margin-bottom: 0;
+}
