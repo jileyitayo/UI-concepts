@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Convoco</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Custom style  -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
+
+			<h1 id="fh5co-logo2"><a href="index.php">Convoco</a></h1>
+			<div class="text-center">
+				<img src="images/me.jpg" class="profile-pic img-circle">				
+				<p><b>{{Name Here}}</b></p>
+				<br><br>
+			</div>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="groups.html">Groups</a></li>
+					<li class="fh5co-active"><a href="profile.html">Profile</a></li>
+				</ul>
+			</nav>
+
+			<div class="fh5co-footer">
+				<p><small>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Convoco. All Rights Reserved.</span></small></p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="fh5co-main">
+			<div class="fh5co-more-contact">
+				<div class="fh5co-narrow-content">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="fh5co-feature fh5co-feature-sm">
+								<img src="images/me.jpg" class="profile-img img-circle">
+
+								<button class="btn btn-primary">Edit Picture</button>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="rect-card">
+								<h3>Ezejiugo Emmanuel Chigbo<br><small>@emmajiugo</small></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fh5co-narrow-content">
+				
+				<div class="row">
+					<div class="col-md-offset-2 col-md-4">
+						<h4>Personal Data</h4>
+					</div>
+				</div>
+				<form class="form-horizontal" role="form" action="" method="">
+					<div class="row">
+						<div class="col-md-offset-2 col-md-8">
+							<div class="row">
+								<div class="form-group">
+									<label class="col-md-3">Last Name:</label>
+									<div class="col-md-8">
+										<label class="label1">Ezejiugo</label>											
+										<!-- <input type="text" class="input-1 form-control" placeholder="Enter Last Name"> -->
+									</div>
+									<div>
+										<a class="edit1" href="#">edit</a>
+										<a class="save1" href="#">save</a>
+									</div>
+								</div>								
+								<div class="line"></div>
+								<div class="form-group">
+									<label class="col-md-3">First Name:</label>
+									<div class="col-md-8">
+										<label class="label2">Emmanuel</label>										
+										<!-- <input type="text" class="input-2 form-control" placeholder="Enter First Name"> -->
+									</div>
+									<div>
+										<a type="button" class="edit2" href="#">edit</a>
+										<a type="button" class="save2" href="#">save</a>
+									</div>
+								</div>								
+								<div class="line"></div>
+								<div class="form-group">
+									<label class="col-md-3">Middle Name:</label>
+									<div class="col-md-8">
+										<label class="label3">Chigbo</label>										
+										<!-- <input type="text" class="input-3 form-control" placeholder="Enter Middle Name (optional)"> -->
+									</div>
+									<div>
+										<a type="button" class="edit3" href="#">edit</a>
+										<a type="button" class="save3" href="#">save</a>
+									</div>
+								</div>								
+								<div class="line"></div>
+								<div class="form-group">
+									<label class="col-md-3">Email Address:</label>
+									<div class="col-md-8">
+										<label class="label4">emmajiugo@gmail.com</label>								
+										<!-- <input type="text" class="input-4 form-control" placeholder="Email Address"> -->
+									</div>
+									<div>
+										<a type="button" class="edit4" href="#">edit</a>
+										<a type="button" class="save4" href="#">save</a>
+									</div>
+								</div>								
+								<div class="line"></div>
+								<div class="form-group">
+									<label class="col-md-3">Phone Number:</label>
+									<div class="col-md-8">
+										<label class="label5">(+234) 07031056082</label>										
+										<!-- <input type="text" class="input-5 form-control" placeholder="eg: (+234) 07031056082"> -->
+									</div>
+									<div>
+										<a type="button" class="edit5" href="#">edit</a>
+										<a type="button" class="save5" href="#">save</a>
+									</div>
+								</div>								
+								<div class="line"></div>
+								<div class="form-group">
+									<label class="col-md-3">Date of Birth:</label>
+									<div class="col-md-8">
+										<label class="label6">09/12/1991</label>										
+										<!-- <input type="text" class="input-6 form-control" placeholder="eg: 09/12/1991"> -->
+									</div>
+									<div>
+										<a type="button" class="edit6" href="#">edit</a>
+										<a type="button" class="save6" href="#">save</a>
+									</div>
+								</div>								
+								<div class="line"></div>
+								<!-- <div class="form-group">
+									<button type="submit" name="save" class="btn btn-primary pull-right"><b>Save</b></button>
+								</div> -->
+							</div>
+						</div>						
+					</div>
+				</form>
+			</div>
+			<div class="gallery">
+				<div class="gallery-box">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-6">
+									<h3>Gallery</h3>
+								</div>
+								<div class="col-md-6">
+									<button class="btn pull-right">Add to Gallery</button>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 gallery-bottom">
+						<b>Gallery pics goes here...</b>
+					</div>					
+				</div>
+			</div>
+			<div class="event">
+				<div class="event-box">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-6">
+									<h3>Event</h3>
+								</div>
+								<div class="col-md-6">
+									<button class="btn pull-right">Add Event</button>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 event-bottom">
+						<b>Event goes here...</b>
+					</div>					
+				</div>
+			</div>
+			<div class="group">
+				<div class="group-box">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-6">
+									<h3>Groups</h3>
+								</div>
+								<div class="col-md-6">
+									<button href="groups.html" class="btn pull-right">Add New Group</button>
+								</div>
+							</div>
+						</div>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 gallery-bottom">
+						<b>Groups goes here...</b>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	
+	<!-- coverting label to textbox when edit button is clicked -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			//hiding the save link
+			$('.save1').hide();
+			$('.save2').hide();
+			$('.save3').hide();
+			$('.save4').hide();
+			$('.save5').hide();
+			$('.save6').hide();
+
+			//clicking the edit link
+		    $('.edit1').click(function () {
+		        var text = $('.label1').text();
+ 				var input = $('<input type="text" class="form-control" value="' + text + '" />');
+ 				$('.label1').text('').append(input);
+ 				input.select();
+ 				$('.edit1').hide();
+ 				$('.save1').show();
+		    });
+		    $('.edit2').click(function () {
+		        var text = $('.label2').text();
+ 				var input = $('<input type="text" class="form-control" value="' + text + '" />');
+ 				$('.label2').text('').append(input);
+ 				input.select();
+ 				$('.edit2').hide();
+ 				$('.save2').show();
+		    });
+		    $('.edit3').click(function () {
+		        var text = $('.label3').text();
+ 				var input = $('<input type="text" class="form-control" value="' + text + '" />');
+ 				$('.label3').text('').append(input);
+ 				input.select();
+ 				$('.edit3').hide();
+ 				$('.save3').show();
+		    });
+		    $('.edit4').click(function () {
+		        var text = $('.label4').text();
+ 				var input = $('<input type="email" class="form-control" value="' + text + '" />');
+ 				$('.label4').text('').append(input);
+ 				input.select();
+ 				$('.edit4').hide();
+ 				$('.save4').show();
+		    });
+		    $('.edit5').click(function () {
+		        var text = $('.label5').text();
+ 				var input = $('<input type="text" class="form-control" value="' + text + '" />');
+ 				$('.label5').text('').append(input);
+ 				input.select();
+ 				$('.edit5').hide();
+ 				$('.save5').show();
+		    });
+		    $('.edit6').click(function () {
+		        var text = $('.label6').text();
+ 				var input = $('<input type="text" class="form-control" value="' + text + '" />');
+ 				$('.label6').text('').append(input);
+ 				input.select();
+ 				$('.edit6').hide();
+ 				$('.save6').show();
+		    });
+	    });
+    </script>
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+    
+    
+});
+
+	</body>
+</html>
+

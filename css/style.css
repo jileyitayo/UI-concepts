@@ -89,7 +89,7 @@ figure figcaption {
 }
 
 #fh5co-aside {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 40px;
   width: 20%;
   position: fixed;
@@ -123,7 +123,7 @@ figure figcaption {
   font-weight: 700;
   margin-bottom: 2em;
   text-transform: uppercase;
-  font-size: 38px;
+  font-size: 32px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-logo {
@@ -253,6 +253,7 @@ figure figcaption {
 #fh5co-main {
   width: 80%;
   float: right;
+  background-color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -271,13 +272,13 @@ figure figcaption {
   position: relative;
   width: 93%;
   margin: 0 auto;
-  padding: 4em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
   #fh5co-main .fh5co-narrow-content {
     width: 100%;
-    padding: 4em 1em;
+    padding: 2em 1em;
   }
 }
 
@@ -764,31 +765,24 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-more-contact {
-  background: #fafafa;
+  background: #888888;
 }
 
 .fh5co-feature {
-  text-align: left;
-  width: 100%;
-  float: left;
-  margin-bottom: 40px;
-  position: relative;
-}
-.fh5co-feature .fh5co-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-  display: table;
   text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/*.fh5co-feature*/ /*.fh5co-icon {
+  width: 150px;
+  height: 150px;
   background: rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-}
-.fh5co-feature .fh5co-icon i {
+}*/
+/*.fh5co-feature .fh5co-icon i {
   display: table-cell;
   vertical-align: middle;
   color: #228896;
@@ -799,12 +793,12 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .fh5co-feature .fh5co-icon i {
     font-size: 40px;
   }
-}
-.fh5co-feature .fh5co-text {
+}*/
+/*.fh5co-feature .fh5co-text {
   padding-left: 120px;
   width: 100%;
-}
-.fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
+}*/
+/*.fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
   margin: 0;
   padding: 0;
 }
@@ -818,8 +812,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .fh5co-feature.fh5co-feature-sm .fh5co-text {
   margin-top: 30px;
-}
-.fh5co-feature.fh5co-feature-sm .fh5co-icon i {
+}*/
+/*.fh5co-feature.fh5co-feature-sm .fh5co-icon i {
   color: #228896;
   font-size: 40px;
 }
@@ -827,7 +821,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
     font-size: 28px;
   }
-}
+}*/
 
 .fh5co-heading {
   font-size: 18px;
@@ -852,8 +846,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   -webkit-border-radius: 0px;

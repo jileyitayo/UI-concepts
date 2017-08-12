@@ -55,16 +55,19 @@
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-			<h1 id="fh5co-logo"><a href="index.php">convoco</a></h1>
-			<!-- <nav id="fh5co-main-menu" role="navigation">
+			<h1 id="fh5co-logo2"><a href="index.php">Convoco</a></h1>
+			<div class="text-center">
+				<img src="images/me.jpg" class="profile-pic img-circle">				
+				<p><b>{{Name Here}}</b></p>
+				<br><br>
+			</div>
+			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="index.html">Home</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li class="fh5co-active"><a href="groups.html">Groups</a></li>
+					<li><a href="profile.html">Profile</a></li>
 				</ul>
-			</nav> -->
+			</nav>
 
 			<div class="fh5co-footer">
 				<p><small>&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Convoco. All Rights Reserved.</span></small></p>
@@ -75,47 +78,80 @@
 					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
 				</ul>
 			</div>
+
 		</aside>
 
 		<div id="fh5co-main">
-			<aside id="fh5co-hero" class="js-fullheight">
-				<div class="flexslider js-fullheight" style="background-image: url(images/img_bg_2.jpg);">
-					<div class="row">
-						<div class="login-main">
-							<div class="col-md-7">
-								<div class="join-words text-center">									
-									<h2>BIG CATCHY TITLE HERE...</h2>
-									<p class="join-pg">OK. We will be putting some charmy, sexy and romantic words here. Lol</p>
-								</div>
-							</div>
-							<div class="col-md-5">
-								<div class="card">
-									<h4>LOGIN</h4>
-									<div class="line"></div>
-									<form role="form" method="POST" action="">
-										<div class="form-group-md">
-											<label>Username/Email</label>
-											<input type="text" name="username" placeholder="Enter username or email" class="form-control">
-										</div>
-										<div class="form-group-md">
-											<label>Password</label>
-											<input type="password" name="pass" placeholder="Enter password" class="form-control">
-										</div>
-										<div class="form-group text-center">
-											<br>
-											<button type="submit" name="" class="btn btn-success pull-right">Login</button>
-										</div>
-									</form>
-									<br>
-									<div class="line"></div>
-									<p>Not a member yet? Click <a href="#">Join Now</a> to catch up with friends.</p>
-								</div>
-							</div>
+			<div class="fh5co-narrow-content">				
+				<div class="row">
+					<div class="col-md-offset-4 col-md-4 fh5co-add-group text-center">
+						<div class="add">
+							<img src="images/add.jpg" class="img-circle" data-toggle="modal" data-target="#addGroup">
 						</div>
+						<p><br><b>Click "Add Group" to invite family and friends.</b></p>
+						<p>>> Test <a href="#" data-toggle="modal" data-target="#inviteModal">"Invite"</a> link</p>
 					</div>
-			  	</div>
-			</aside>
+				</div>				
+			</div>	
 		</div>
+	</div>
+
+	<!-- Modal for adding the Group name and description -->
+	<div id="addGroup" class="modal fade" role="dialog">
+  		<div class="modal-dialog modal-md">
+
+    		<!-- Modal content-->
+    		<div class="modal-content">
+      			<div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">Create New Group</h4>
+      			</div>
+      			<div class="modal-body">
+        			<form>
+        				<div class="form-group">
+        					<label>Group Name</label>
+        					<input type="text" name="groupname" placeholder="Choose a Group Name" class="form-control">
+        				</div>
+        				<div class="form-group">
+        					<label>Group Description</label>
+        					<textarea name="groupdesc" placeholder="Enter a description" class="form-control"></textarea>
+        				</div>
+        				<div class="form-group text-center">
+        					<button type="submit" name="create" class="btn btn-lg btn-success"><b>Create Group</b></button>
+        				</div>
+        			</form>
+      			</div>
+      			<div class="modal-footer">
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<!-- Modal for inviting new members -->
+	<div id="inviteModal" class="modal fade" role="dialog">
+  		<div class="modal-dialog modal-md">
+
+    		<!-- Modal content-->
+    		<div class="modal-content">
+      			<div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">New Invite</h4>
+      			</div>
+      			<div class="modal-body">
+        			<form>
+        				<div class="form-group">
+        					<label>Email</label>
+        					<input type="text" name="email" placeholder="Enter invitee's email" class="form-control">
+        				</div>
+        				<div class="form-group text-center">
+        					<button type="submit" name="create" class="btn btn-lg btn-success"><b>Invite</b></button>
+        				</div>
+        			</form>
+      			</div>
+      			<div class="modal-footer">
+      			</div>
+    		</div>
+  		</div>
 	</div>
 
 	<!-- jQuery -->
